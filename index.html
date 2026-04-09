@@ -2,10 +2,18 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>はじめてのWebアプリ</title>
+  <title>ToDoアプリ</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>こんにちは！</h1>
-  <p>ここからWeb開発スタート</p>
+
+  <h1>ToDoリスト</h1>
+
+  <input type="text" id="taskInput" placeholder="やること入力">
+  <button onclick="addTask()">追加</button>
+
+  <ul id="taskList"></ul>
+
+  <script src="script.js"></script>
 </body>
 </html>
